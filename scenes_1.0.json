@@ -1,7 +1,357 @@
    {
-     "version": 2,
+     "version": 1,
      "loadID": "0011",
      "scenes": [
+       {
+         "id" : "0001",
+         "description": "3 static holes in the middle",
+         "maxSeconds": 30,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] }
+         ]
+       },
+              
+       {
+         "id" : "0002",
+         "description": "8 static holes in the middle",
+         "maxSeconds": 30,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          { "position": [200,100] },
+          { "position": [300,100] },
+          { "position": [-200,100] },
+          { "position": [-300,100] }
+         ]
+       },       
+       
+       {
+         "id" : "0003",
+         "description": "7 static, keeper in gates",
+         "maxSeconds": 60,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          { "position": [200,100] },
+          { "position": [300,100] },
+          { "position": [-200,100] },
+          { "position": [-300,100] }
+         ],
+         "keepers": [
+           {
+           "position": [-65,185],
+           "duration": 1,
+           "direction": 1,
+           "percentage": 20
+           }
+         ]         
+       },       
+       
+       {
+         "id" : "0004",
+         "description": "9 static holes, 3 in gates",
+         "maxSeconds": 60,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          
+          { "position": [0,0] },
+          { "position": [-100,0] },
+          { "position": [100,0] },
+          
+          { "position": [0, 250] },
+          { "position": [100, 240] },
+          { "position": [-100, 240] },
+         ]
+         
+       },       
+       
+       {
+         "id" : "0005",
+         "description": "9 static holes, blue line",
+         "maxSeconds": 60,
+         "holes": [
+          { "position": [0, 250] },
+          { "position": [100, 240] },
+          { "position": [-100, 240] },
+          
+          { "position": [0,-300] },
+          { "position": [-100,-300] },
+          { "position": [100,-300] },
+          { "position": [200,-300] },
+          { "position": [300,-300] },
+          { "position": [-200,-300] },
+          { "position": [-300,-300] },
+                    
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          { "position": [200,100] },
+          { "position": [300,100] },
+          { "position": [-200,100] },
+          { "position": [-300,100] }
+               
+         ]         
+       },   
+           
+       {
+         "id" : "0006",
+         "description": "9 static holes, moving middle",
+         "maxSeconds": 60,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          
+          { "position": [0,0] },
+          { "position": [-100,0] },
+          { "position": [100,0] },
+          
+          { 
+            "position": [0, 250],
+            "duration": 1,
+            "direction": 1,
+            "percentage": 30
+
+          },
+                    
+          { "position": [0,-300] },
+          { "position": [-100,-300] },
+          { "position": [100,-300] },
+          { "position": [200,-300] },
+          { "position": [300,-300] },
+          { "position": [-200,-300] },
+          { "position": [-300,-300] }          
+         ]         
+       },       
+       
+       {
+         "id" : "0007",
+         "description": "9 static holes, keeper",
+         "maxSeconds": 60,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          
+          { "position": [-200,0] },
+          { "position": [200,0] },
+          
+          { 
+            "position": [0, 250],
+            "duration": 1,
+            "direction": 1,
+            "percentage": 30
+
+          },
+                    
+          { "position": [0,-300] },
+          { "position": [-100,-300] },
+          { "position": [100,-300] },
+          { "position": [200,-300] },
+          { "position": [-200,-300] },
+          
+          { "position": [300,-100] },
+          { "position": [-300,-100] }
+          
+         ],
+         "keepers": [
+           {
+           "position": [-65,-50],
+           "duration": 0.5,
+           "direction": 1,
+           "percentage": 30
+           }
+         ]         
+       },       
+       
+       {
+         "id" : "0008",
+         "description": "3 keepers",
+         "maxSeconds": 90,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          
+          { "position": [-200,0] },
+          { "position": [200,0] },
+          
+          { 
+            "position": [0, 250],
+            "duration": 1,
+            "direction": 1,
+            "percentage": 30
+
+          },
+                    
+          { "position": [0,-300] },
+          { "position": [-100,-300] },
+          { "position": [100,-300] },
+          { "position": [200,-300] },
+          { "position": [-200,-300] },
+          
+          { "position": [300,-100] },
+          { "position": [-300,-100] }
+          
+         ],
+         "keepers": [
+           {
+           "position": [-65,-75],
+           "duration": 0.5,
+           "direction": 1,
+           "percentage": 35
+           },
+           {
+           "position": [-275, 50],
+           "duration": 0.7,
+           "direction": 1,
+           "percentage": 15
+           },
+           {
+           "position": [150, 50],
+           "duration": 0.6,
+           "direction": 1,
+           "percentage": 15
+           }
+         ]         
+       },       
+       
+       {
+         "id" : "0009",
+         "description": "",
+         "maxSeconds": 90,
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          
+          { "position": [-200,0] },
+          { "position": [200,0] },
+          
+          { 
+            "position": [0, 250],
+            "duration": 1,
+            "direction": 1,
+            "percentage": 30
+
+          },
+                    
+          { "position": [0,-300] },
+          { "position": [-100,-300] },
+          { "position": [100,-300] },
+          { "position": [200,-300] },
+          { "position": [-200,-300] },
+          
+          { "position": [300,-100] },
+          { "position": [-300,-100] }
+          
+         ],
+         "keepers": [
+           {
+           "position": [-65,-75],
+           "duration": 0.5,
+           "direction": 1,
+           "percentage": 35
+           },
+           {
+           "position": [-275, 50],
+           "duration": 0.7,
+           "direction": 1,
+           "percentage": 15
+           },
+           {
+           "position": [150, 50],
+           "duration": 0.6,
+           "direction": 1,
+           "percentage": 15
+           },
+           {
+           "position": [-65, -250],
+           "duration": 0.7,
+           "direction": 1,
+           "percentage": 100
+           }
+         ]         
+       },       
+
+       {
+         "id" : "0010",
+         "description": "",
+         "maxSeconds": 90,
+         "objective": {
+           "en": "Collect the money, score a goal!",
+           "lv": "Savāc naudu! Gūsti vārtus!",
+           "ru": "Собери рубли! Забей гол!"
+         },
+
+         "holes": [
+          { "position": [0,100] },
+          { "position": [-100,100] },
+          { "position": [100,100] },
+          
+          { "position": [-200,0] },
+          { "position": [200,0] },
+          
+          { 
+            "position": [0, 250],
+            "duration": 1,
+            "direction": 1,
+            "percentage": 30
+
+          },
+                    
+          { "position": [0,-300] },
+          { "position": [-100,-300] },
+          { "position": [100,-300] },
+          { "position": [200,-300] },
+          { "position": [-200,-300] },
+          
+          { "position": [300,-100] },
+          { "position": [-300,-100] }
+          
+         ],
+         "collectibles": [
+           {
+           "type": 0,
+           "position": [0,0]
+           },
+           {
+           "type": 1,
+           "position": [-60,-230]
+           }
+         ],
+		},
+
+
+       {
+         "id" : "0011",
+         "description": "3 moving holes in the middle",
+         "maxSeconds": 30,
+         "holes": [
+          { "position": [0,100],
+            "duration": 0.5,
+            "direction": 1,
+            "percentage": 20             
+          },
+          { "position": [-100,100],
+            "duration": 0.3,
+            "direction": 0,
+            "percentage": 25
+          },
+          { "position": [100,100],
+            "duration": 0.3,
+            "direction": 0,
+            "percentage": 25           
+          }
+         ]
+       },
+
        {
          "id" : "0012",
          "description": "3 moving holes in the middle",
@@ -30,7 +380,7 @@
           { "position": [-300, 200] },    
           { "position": [-200, 350] },    
           { "position": [300, 200] },    
-          { "position": [200, 350] },    
+          { "position": [200, 350] }    
          ]
        }				
      ]
