@@ -7,7 +7,7 @@
         "description": "1 static hole in the middle",
         "maxSeconds": 30,
         "holes": [
-         { "position": [-100,100] }
+         { "position": [-100,105] }
         ]
       },
 
