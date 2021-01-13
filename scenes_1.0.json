@@ -24,12 +24,10 @@
               
        {
          "id" : "0002",
-         "description": "8 static holes in the middle",
+         "description": "5 static holes in the middle",
          "maxSeconds": 30,
          "holes": [
           { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
           { "position": [200,100] },
           { "position": [300,100] },
           { "position": [-200,100] },
