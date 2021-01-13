@@ -2,6 +2,15 @@
      "version": 1,
      "loadID": "0011",
      "scenes": [
+      {
+        "id" : "0001",
+        "description": "1 static hole in the middle",
+        "maxSeconds": 30,
+        "holes": [
+         { "position": [-100,100] }
+        ]
+      },
+
        {
          "id" : "0001",
          "description": "3 static holes in the middle",
