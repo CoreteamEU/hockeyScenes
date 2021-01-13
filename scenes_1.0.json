@@ -3,7 +3,7 @@
      "loadID": "0011",
      "scenes": [
       {
-        "id" : "0001",
+        "id" : "0000",
         "description": "1 static hole in the middle",
         "maxSeconds": 30,
         "holes": [
