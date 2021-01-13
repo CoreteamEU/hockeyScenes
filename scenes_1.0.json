@@ -42,9 +42,6 @@
          "description": "7 static, keeper in gates",
          "maxSeconds": 60,
          "holes": [
-          { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
           { "position": [200,100] },
           { "position": [300,100] },
           { "position": [-200,100] },
