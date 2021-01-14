@@ -80,8 +80,7 @@
          "id" : "0005",
          "description": "9 static holes, blue line",
          "maxSeconds": 60,
-         "holes": [
-          { "position": [0, 250] },
+         "holes": [          
           { "position": [100, 240] },
           { "position": [-100, 240] },
           
