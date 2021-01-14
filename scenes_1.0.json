@@ -122,9 +122,6 @@
          "description": "9 static holes, moving middle",
          "maxSeconds": 60,
          "holes": [
-          { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
           
           { "position": [0,0] },
           { "position": [-100,0] },
@@ -141,9 +138,7 @@
           { "position": [0,-300] },
           { "position": [-100,-300] },
           { "position": [100,-300] },
-          { "position": [200,-300] },
           { "position": [300,-300] },
-          { "position": [-200,-300] },
           { "position": [-300,-300] }          
          ]         
        },       
