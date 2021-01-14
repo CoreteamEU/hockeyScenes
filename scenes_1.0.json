@@ -11,6 +11,26 @@
         ]
       },
 
+      {
+        "id" : "0010",
+        "description": "1 static hole with rouble",
+        "maxSeconds": 30,
+        "holes": [
+         { "position": [0,105] }
+        ],
+        "collectibles": [
+          {
+          "type": 0,
+          "position": [-100,400]
+          },
+          {
+          "type": 1,
+          "position": [250,300]
+          }
+        ],
+
+      },
+
        {
          "id" : "0001",
          "description": "3 static holes in the middle",
