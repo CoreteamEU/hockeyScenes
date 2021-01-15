@@ -93,7 +93,12 @@
           { "position": [-100, 240] },
 
           { "position": [100,100] }          
-         ]
+         ],
+         "collectibles": [
+          {
+          "type": 1,
+          "position": [200,100]
+          }
          
        },       
        
