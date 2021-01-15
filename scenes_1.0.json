@@ -98,10 +98,8 @@
           {
           "type": 1,
           "position": [200,100]
-          }
-         
-       },       
-       
+          }]         
+        },        
        {
          "id" : "0005",
          "description": "9 static holes, blue line",
