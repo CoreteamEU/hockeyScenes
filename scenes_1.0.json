@@ -78,11 +78,7 @@
          "id" : "0004",
          "description": "9 static holes, 3 in gates",
          "maxSeconds": 60,
-         "holes": [
-          { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
-          
+         "holes": [          
           { "position": [0,0] },
           { "position": [-100,0] },
           { "position": [100,0] },
