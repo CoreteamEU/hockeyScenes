@@ -134,8 +134,7 @@
             "percentage": 30
 
           },
-                    
-          { "position": [0,-300] },
+                              
           { "position": [-100,-300] },
           { "position": [100,-300] },
           { "position": [300,-300] },
