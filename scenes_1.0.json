@@ -71,7 +71,13 @@
            "direction": 1,
            "percentage": 20
            }
-         ]         
+         ],
+         "collectibles": [
+          {
+          "type": 0,
+          "position": [200,400]
+          }
+        ]
        },       
        
        {
