@@ -11,6 +11,36 @@
       },
 
       {
+        "id" : "0020",
+        "description": "2 lines of static holes in the middle",
+        "maxSeconds": 30,
+        "holes": [
+         { "position": [-50,-300] },
+         { "position": [-50,-250] },
+         { "position": [-50,-200] },
+         { "position": [-50,-150] },
+         { "position": [-50,-100] },
+         { "position": [-50,-50] },
+         { "position": [-50,0] },
+         { "position": [-50,50] },
+         { "position": [-50,100] },
+         { "position": [-50,150] },
+         { "position": [-50,200] },
+         { "position": [50,-300] },
+         { "position": [50,-250] },
+         { "position": [50,-200] },
+         { "position": [50,-150] },
+         { "position": [50,-100] },
+         { "position": [50,-50] },
+         { "position": [50,0] },
+         { "position": [50,50] },
+         { "position": [50,100] },
+         { "position": [50,150] },
+         { "position": [50,200] }
+        ]
+      },  
+
+      {
         "id" : "00010",
         "description": "1 static hole with rouble",
         "maxSeconds": 30,
@@ -26,7 +56,7 @@
           "type": 1,
           "position": [250,300]
           }
-        ],
+        ]
 
       },
 
@@ -342,7 +372,7 @@
            "type": 1,
            "position": [-60,-230]
            }
-         ],
+         ]
 		},
 
 
@@ -430,7 +460,7 @@
 
          { "position": [10,80] },
          { "position": [-60,80] },
-         { "position": [-130,80] },
+         { "position": [-130,80] }
 
         ],
         "collectibles": [
@@ -441,9 +471,9 @@
           { "type": 0, "position": [150,-180] },
           { "type": 0, "position": [150,-110] },
           { "type": 0, "position": [150,-40] },
-          { "type": 0, "position": [150,100] },
+          { "type": 0, "position": [150,100] }
        ]
-      },
+      }
 
      ]
    }
