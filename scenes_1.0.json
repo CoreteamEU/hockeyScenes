@@ -8,36 +8,6 @@
         "holes": [
          { "position": [0,105] }
         ]
-      },
-
-      {
-        "id" : "0020",
-        "description": "2 lines of static holes in the middle",
-        "maxSeconds": 30,
-        "holes": [
-         { "position": [-50,-300] },
-         { "position": [-50,-250] },
-         { "position": [-50,-200] },
-         { "position": [-50,-150] },
-         { "position": [-50,-100] },
-         { "position": [-50,-50] },
-         { "position": [-50,0] },
-         { "position": [-50,50] },
-         { "position": [-50,100] },
-         { "position": [-50,150] },
-         { "position": [-50,200] },
-         { "position": [50,-300] },
-         { "position": [50,-250] },
-         { "position": [50,-200] },
-         { "position": [50,-150] },
-         { "position": [50,-100] },
-         { "position": [50,-50] },
-         { "position": [50,0] },
-         { "position": [50,50] },
-         { "position": [50,100] },
-         { "position": [50,150] },
-         { "position": [50,200] }
-        ]
       },  
 
       {
@@ -473,7 +443,36 @@
           { "type": 0, "position": [150,-40] },
           { "type": 0, "position": [150,100] }
        ]
-      }
+      },
 
+      {
+        "id" : "0014",
+        "description": "2 lines of static holes in the middle",
+        "maxSeconds": 30,
+        "holes": [
+         { "position": [-50,-300] },
+         { "position": [-50,-250] },
+         { "position": [-50,-200] },
+         { "position": [-50,-150] },
+         { "position": [-50,-100] },
+         { "position": [-50,-50] },
+         { "position": [-50,0] },
+         { "position": [-50,50] },
+         { "position": [-50,100] },
+         { "position": [-50,150] },
+         { "position": [-50,200] },
+         { "position": [50,-300] },
+         { "position": [50,-250] },
+         { "position": [50,-200] },
+         { "position": [50,-150] },
+         { "position": [50,-100] },
+         { "position": [50,-50] },
+         { "position": [50,0] },
+         { "position": [50,50] },
+         { "position": [50,100] },
+         { "position": [50,150] },
+         { "position": [50,200] }
+        ]
+      }
      ]
    }
