@@ -11,7 +11,7 @@
       },
 
       {
-        "id" : "0010",
+        "id" : "00010",
         "description": "1 static hole with rouble",
         "maxSeconds": 30,
         "holes": [
