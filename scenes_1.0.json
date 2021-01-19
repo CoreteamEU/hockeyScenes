@@ -2061,27 +2061,6 @@
       "holes": [
         {
           "position": [
-            110,
-            -400
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -78,
-            -400
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            166,
-            -320
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
             -18,
             -314
           ],
@@ -2168,6 +2147,27 @@
           "position": [
             -12,
             220
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -70,
+            -388
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            124,
+            -402
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            174,
+            -322
           ],
           "duration": 1
         }
