@@ -2237,13 +2237,6 @@
       "holes": [
         {
           "position": [
-            98,
-            -394
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
             42,
             -332
           ],
@@ -2251,78 +2244,8 @@
         },
         {
           "position": [
-            -160,
-            -406
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -204,
-            -338
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -270,
-            -112
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -262,
-            -192
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -234,
-            -264
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -260,
-            -20
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -50,
-            -198
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -78,
-            -114
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -234,
-            56
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
             -6,
             -264
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -194,
-            134
           ],
           "duration": 1
         },
@@ -2356,8 +2279,85 @@
         },
         {
           "position": [
-            -150,
-            210
+            -100,
+            -398
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            90,
+            -396
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -156,
+            -332
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -64,
+            -192
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -104,
+            -112
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -244,
+            -32
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -180,
+            124
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -142,
+            198
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -214,
+            44
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -264,
+            -110
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -250,
+            -190
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -210,
+            -264
           ],
           "duration": 1
         }
