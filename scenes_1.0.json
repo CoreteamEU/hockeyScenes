@@ -1,1386 +1,2229 @@
-   {
-     "version": 1,
-     "scenes": [
-      {
-        "id" : "0000",
-        "description": "1 static hole in the middle",
-        "maxSeconds": 30,
-        "holes": [
-         { "position": [0,105] }
-        ]
-      },
-
-      {
-        "id" : "0001",
-        "description": "3 static holes in the middle",
-        "maxSeconds": 30,
-        "holes": [
-         { "position": [0,100] },
-         { "position": [-100,100] },
-         { "position": [100,100] }
-        ]
-      },
-      {
-        "id" : "00010",
-        "description": "1 static hole with rouble",
-        "maxSeconds": 30,
-        "holes": [
-         { "position": [0,105] }
-        ],
-        "collectibles": [
-          {
+{
+  "version": 1,
+  "scenes": [
+    {
+      "id": "0000",
+      "description": "1 static hole in the middle",
+      "maxSeconds": 30,
+      "holes": [
+        {
+          "position": [
+            0,
+            105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0001",
+      "description": "3 static holes in the middle",
+      "maxSeconds": 30,
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ]
+        },
+        {
+          "position": [
+            -100,
+            100
+          ]
+        },
+        {
+          "position": [
+            100,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "00010",
+      "description": "1 static hole with rouble",
+      "maxSeconds": 30,
+      "holes": [
+        {
+          "position": [
+            0,
+            105
+          ]
+        }
+      ],
+      "collectibles": [
+        {
           "type": 1,
-          "position": [-100,400]
-          },
-          {
+          "position": [
+            -100,
+            400
+          ]
+        },
+        {
           "type": 1,
-          "position": [250,300]
-          }
-        ]
-
-      },                    
-      {
-        "id" : "0002",
-        "description": "5 static holes in the middle",
-        "maxSeconds": 30,
-        "holes": [
-         { "position": [0,100] },
-         { "position": [200,100] },
-         { "position": [300,100] },
-         { "position": [-200,100] },
-         { "position": [-300,100] }
-        ],
-        "collectibles" : [
-          {
-            "type" : 50,
-            "position" : [
-              90,
-              90
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -94,
-              88
-            ]
-          }
-        ]    
-      },       
-      {
-        "id" : "0003",
-        "description": "7 static, keeper in gates",
-        "maxSeconds": 60,
-        "holes": [
-         { "position": [200,100] },
-         { "position": [300,100] },
-         { "position": [-200,100] },
-         { "position": [-300,100] }
-        ],
-        "keepers": [
-          {
-          "position": [-65,185],
+          "position": [
+            250,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0002",
+      "description": "5 static holes in the middle",
+      "maxSeconds": 30,
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ]
+        },
+        {
+          "position": [
+            200,
+            100
+          ]
+        },
+        {
+          "position": [
+            300,
+            100
+          ]
+        },
+        {
+          "position": [
+            -200,
+            100
+          ]
+        },
+        {
+          "position": [
+            -300,
+            100
+          ]
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 50,
+          "position": [
+            90,
+            90
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -94,
+            88
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0003",
+      "description": "7 static, keeper in gates",
+      "maxSeconds": 60,
+      "holes": [
+        {
+          "position": [
+            200,
+            100
+          ]
+        },
+        {
+          "position": [
+            300,
+            100
+          ]
+        },
+        {
+          "position": [
+            -200,
+            100
+          ]
+        },
+        {
+          "position": [
+            -300,
+            100
+          ]
+        }
+      ],
+      "keepers": [
+        {
+          "position": [
+            -65,
+            185
+          ],
           "duration": 1,
           "direction": 1,
           "percentage": 20
-          }
-        ],
-        "collectibles": [
-         {
-         "type": 1,
-         "position": [200,400]
-         }
-       ]
-      },       
-      
-      {
-        "id" : "0004",
-        "description": "9 static holes, 3 in gates",
-        "maxSeconds": 60,
-        "holes": [          
-         { "position": [0,0] },
-         { "position": [-100,0] },
-         { "position": [100,0] },
-         
-         { "position": [100, 240] },
-         { "position": [-100, 240] },
-
-         { "position": [100,100] }          
-        ],
-        "collectibles": [
-         {
-           "type" : 100,
-           "position" : [
-             -82,
-             104
-           ]
-         },
-         {
-           "type" : 50,
-           "position" : [
-             30,
-             230
-           ]
-         },           
-         {
-         "type": 1,
-         "position": [200,100]
-         }]         
-       },        
-      {
-        "id" : "0005",
-        "description": "9 static holes, blue line",
-        "maxSeconds": 60,
-        "holes": [          
-         { "position": [100, 240] },
-         { "position": [-100, 240] },
-         
-         { "position": [0,-300] },
-         { "position": [-100,-300] },
-         { "position": [100,-300] },
-         { "position": [200,-300] },
-         { "position": [-200,-300] },
-                   
-         { "position": [200,100] },
-         { "position": [300,100] },
-         { "position": [-200,100] },
-         { "position": [-300,100] }
-        ],         
-        "collectibles" : [
-          {
-            "type" : 100,
-            "position" : [
-              -266,
-              -324
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              290,
-              -318
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              262,
-              280
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -262,
-              278
-            ]
-          }
-        ]        
-      },   
-          
-      {
-        "id" : "0006",
-        "description": "9 static holes, moving middle",
-        "maxSeconds": 60,
-        "holes": [
-         
-         { "position": [0,0] },
-         { "position": [-100,0] },
-         { "position": [100,0] },
-         
-         { 
-           "position": [0, 250],
-           "duration": 1,
-           "direction": 1,
-           "percentage": 30
-
-         },
-                             
-         { "position": [-100,-300] },
-         { "position": [100,-300] },
-         { "position": [300,-300] },
-         { "position": [-300,-300] }          
-        ],
-        "collectibles" : [
-          {
-            "type" : 100,
-            "position" : [
-              -262,
-              278
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              222,
-              80
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              224,
-              -20
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -204,
-              -380
-            ]
-          }
-        ],
-      
-      },       
-      
-      {
-        "holes" : [
-          {
-            "position" : [
-              74,
-              164
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -92,
-              160
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -10,
-              164
-            ],
-            "duration" : 1
-          }
-        ],
-        "id" : "9007",
-        "objective" : {
-          "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
-          "en" : "Try to score as fast as you can!",
-          "ru" : "Забей гол как можно быстрее!"
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 1,
+          "position": [
+            200,
+            400
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0004",
+      "description": "9 static holes, 3 in gates",
+      "maxSeconds": 60,
+      "holes": [
+        {
+          "position": [
+            0,
+            0
+          ]
         },
-        "collectibles" : [
-          {
-            "type" : 25,
-            "position" : [
-              -14,
-              110
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              76,
-              242
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -78,
-              238
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -10,
-              390
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              48,
-              -70
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -40,
-              -254
-            ]
-          }
-        ],
-        "maxSeconds" : 120,
-        "description" : "Roubles"
-      },       
-      {
-        "holes" : [
-          {
-            "position" : [
-              270,
-              -14
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -278,
-              -20
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -98,
-              -12
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              82,
-              -10
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -12,
-              164
-            ],
-            "duration" : 1
-          }
-        ],
-        "id" : "9006",
-        "objective" : {
-          "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
-          "en" : "Try to score as fast as you can!",
-          "ru" : "Забей гол как можно быстрее!"
+        {
+          "position": [
+            -100,
+            0
+          ]
         },
-        "collectibles" : [
-          {
-            "type" : 100,
-            "position" : [
-              -8,
-              -278
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -62,
-              -238
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              72,
-              -76
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -92,
-              -78
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -278,
-              -80
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              272,
-              -78
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              -14,
-              110
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              76,
-              242
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -78,
-              238
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              16,
-              -216
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              80,
-              -274
-            ]
-          }
-        ],
-        "maxSeconds" : 80,
-        "description" : "Roubles"
-      },       
-      {
-        "holes" : [
-          {
-            "position" : [
-              -42,
-              -360
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              36,
-              -360
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              118,
-              -358
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -122,
-              -356
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -128,
-              -260
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -130,
-              -78
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -52,
-              -80
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              34,
-              -84
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              116,
-              -84
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              122,
-              -172
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              122,
-              -266
-            ],
-            "duration" : 1
-          }
-        ],
-        "id" : "9005",
-        "objective" : {
-          "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
-          "en" : "Try to score as fast as you can!",
-          "ru" : "Забей гол как можно быстрее!"
+        {
+          "position": [
+            100,
+            0
+          ]
         },
-        "collectibles" : [
-          {
-            "type" : 100,
-            "position" : [
-              50,
-              -142
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -46,
-              -144
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              64,
-              -284
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -66,
-              -294
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -8,
-              -278
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              60,
-              -216
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              -8,
-              -234
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -66,
-              -196
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -62,
-              -238
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              12,
-              -192
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              6,
-              394
-            ]
-          }
-        ],
-        "maxSeconds" : 60,
-        "description" : ""
-      },       
-      {
-        "collectibles" : [
-          {
-            "type" : 1,
-            "position" : [
-              214,
-              -154
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -224,
-              -162
-            ]
-          }
-        ],
-        "id" : "9003",
-        "keepers" : [
-          {
-            "position" : [
-              -248,
-              -234
-            ],
-            "type": 1,
-            "duration" : 1
-          },
-          {
-            "position" : [
-              208,
-              -224
-            ],
-            "type": 2,
-            "duration" : 1
-          }
-        ],
-        "maxSeconds" : 30,
-        "objective" : {
-          "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
-          "en" : "Try to score as fast as you can!",
-          "ru" : "Забей гол как можно быстрее!"
+        {
+          "position": [
+            100,
+            240
+          ]
         },
-        "description" : "3 holes tree",
-        "holes" : [
-          {
-            "position" : [
-              -4,
-              224
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              50,
-              156
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -58,
-              150
-            ],
-            "duration" : 1
-          }
-        ]
+        {
+          "position": [
+            -100,
+            240
+          ]
+        },
+        {
+          "position": [
+            100,
+            100
+          ]
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 100,
+          "position": [
+            -82,
+            104
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            30,
+            230
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            200,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0005",
+      "description": "9 static holes, blue line",
+      "maxSeconds": 60,
+      "holes": [
+        {
+          "position": [
+            100,
+            240
+          ]
+        },
+        {
+          "position": [
+            -100,
+            240
+          ]
+        },
+        {
+          "position": [
+            0,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            200,
+            100
+          ]
+        },
+        {
+          "position": [
+            300,
+            100
+          ]
+        },
+        {
+          "position": [
+            -200,
+            100
+          ]
+        },
+        {
+          "position": [
+            -300,
+            100
+          ]
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 100,
+          "position": [
+            -266,
+            -324
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            290,
+            -318
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            262,
+            280
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -262,
+            278
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0006",
+      "description": "9 static holes, moving middle",
+      "maxSeconds": 60,
+      "holes": [
+        {
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "position": [
+            -100,
+            0
+          ]
+        },
+        {
+          "position": [
+            100,
+            0
+          ]
+        },
+        {
+          "position": [
+            0,
+            250
+          ],
+          "duration": 1,
+          "direction": 1,
+          "percentage": 30
+        },
+        {
+          "position": [
+            -100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            300,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -300,
+            -300
+          ]
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 100,
+          "position": [
+            -262,
+            278
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            222,
+            80
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            224,
+            -20
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -204,
+            -380
+          ]
+        }
+      ],
+    },
+    {
+      "holes": [
+        {
+          "position": [
+            74,
+            164
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -92,
+            160
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -10,
+            164
+          ],
+          "duration": 1
+        }
+      ],
+      "id": "9007",
+      "objective": {
+        "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en": "Try to score as fast as you can!",
+        "ru": "Забей гол как можно быстрее!"
       },
-         
-      {
-        "collectibles" : [
-          {
-            "type" : 1,
-            "position" : [
-              260,
-              50
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -54,
-              234
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              48,
-              238
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              184,
-              360
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -240,
-              362
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -264,
-              -82
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -170,
-              100
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -228,
-              18
-            ]
-          }
-        ],
-        "id" : "9002",
-        "keepers" : [
-  
-        ],
-        "maxSeconds" : 60,
-        "objective" : {
-          "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
-          "en" : "Try to score as fast as you can!",
-          "ru" : "Забей гол как можно быстрее!"
+      "collectibles": [
+        {
+          "type": 25,
+          "position": [
+            -14,
+            110
+          ]
         },
-        "description" : "",
-        "holes" : [
-          {
-            "position" : [
-              -202,
-              -280
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              124,
-              194
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -126,
-              190
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -14,
-              70
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -16,
-              -198
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -16,
-              -292
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              74,
-              -38
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -100,
-              -38
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -206,
-              -194
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              170,
-              -184
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              174,
-              -280
-            ],
-            "duration" : 1
-          }
-        ]
-      },
-
-      {
-        "collectibles" : [
-          {
-            "type" : 1,
-            "position" : [
-              204,
-              12
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              244,
-              302
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -230,
-              298
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -224,
-              -362
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              250,
-              -352
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              258,
-              -234
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              178,
-              -126
-            ]
-          }
-        ],
-        "id" : "9001",
-        "keepers" : [
-  
-        ],
-        "maxSeconds" : 60,
-        "objective" : {
-          "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
-          "en" : "Try to score as fast as you can!",
-          "ru" : "Забей гол как можно быстрее!"
+        {
+          "type": 100,
+          "position": [
+            76,
+            242
+          ]
         },
-        "description" : "",
-        "holes" : [
-          {
-            "position" : [
-              -68,
-              -288
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -94,
-              -200
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -136,
-              -100
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -166,
-              -12
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -172,
-              96
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -144,
-              192
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              74,
-              -320
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              50,
-              -218
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              20,
-              -122
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -24,
-              -20
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -48,
-              82
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              -8,
-              186
-            ],
-            "duration" : 1
-          },
-          {
-            "position" : [
-              88,
-              202
-            ],
-            "duration" : 1
-          }
-        ]
+        {
+          "type": 100,
+          "position": [
+            -78,
+            238
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -10,
+            390
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            48,
+            -70
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -40,
+            -254
+          ]
+        }
+      ],
+      "maxSeconds": 120,
+      "description": "Roubles"
+    },
+    {
+      "holes": [
+        {
+          "position": [
+            270,
+            -14
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -278,
+            -20
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -98,
+            -12
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            82,
+            -10
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -12,
+            164
+          ],
+          "duration": 1
+        }
+      ],
+      "id": "9006",
+      "objective": {
+        "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en": "Try to score as fast as you can!",
+        "ru": "Забей гол как можно быстрее!"
       },
-
-       
-       
-       {
-         "id" : "0007",
-         "description": "9 static holes, keeper",
-         "maxSeconds": 60,
-         "holes": [
-          { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
-          
-          { "position": [-200,0] },
-          { "position": [200,0] },
-          
-          { 
-            "position": [0, 250],
-            "duration": 1,
-            "direction": 1,
-            "percentage": 30
-
-          },
-                    
-          { "position": [0,-300] },
-          { "position": [-100,-300] },
-          { "position": [100,-300] },
-          { "position": [200,-300] },
-          { "position": [-200,-300] },
-          
-          { "position": [300,-100] },
-          { "position": [-300,-100] }
-          
-         ],
-         "keepers": [
-           {
-           "position": [-65,-50],
-           "duration": 0.5,
-           "direction": 1,
-           "percentage": 30
-           }
-         ],
-         "collectibles" : [
-          {
-            "type" : 100,
-            "position" : [
-              -134,
-              -214
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              -10,
-              -208
-            ]
-          },
-          {
-            "type" : 1,
-            "position" : [
-              134,
-              -202
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              68,
-              -122
-            ]
-          },
-          {
-            "type" : 1,
-            "position" : [
-              -74,
-              -126
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -2,
-              -42
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              54,
-              230
-            ]
-          }
-        ],                  
-       },       
-       
-       {
-         "id" : "0008",
-         "description": "3 keepers",
-         "maxSeconds": 90,
-         "holes": [
-          { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
-          
-          { "position": [-200,0] },
-          { "position": [200,0] },
-          
-          { 
-            "position": [0, 250],
-            "duration": 1,
-            "direction": 1,
-            "percentage": 30
-
-          },
-                    
-          { "position": [0,-300] },
-          { "position": [-100,-300] },
-          { "position": [100,-300] },
-          { "position": [200,-300] },
-          { "position": [-200,-300] },
-          
-          { "position": [300,-100] },
-          { "position": [-300,-100] }
-          
-         ],
-         "keepers": [
-           {
-           "position": [-65,-75],
-           "duration": 0.5,
-           "direction": 1,
-           "percentage": 35
-           },
-           {
-           "position": [-275, 50],
-           "duration": 0.7,
-           "direction": 1,
-           "percentage": 15
-           },
-           {
-           "position": [150, 50],
-           "duration": 0.6,
-           "direction": 1,
-           "percentage": 15
-           }
-         ]         
-       },       
-       
-       {
-         "id" : "0009",
-         "description": "",
-         "maxSeconds": 90,
-         "holes": [
-          { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
-          
-          { "position": [-200,0] },
-          { "position": [200,0] },
-          
-          { 
-            "position": [0, 250],
-            "duration": 1,
-            "direction": 1,
-            "percentage": 30
-
-          },
-                    
-          { "position": [0,-300] },
-          { "position": [-100,-300] },
-          { "position": [100,-300] },
-          { "position": [200,-300] },
-          { "position": [-200,-300] },
-          
-          { "position": [300,-100] },
-          { "position": [-300,-100] }
-          
-         ],
-         "keepers": [
-           {
-           "position": [-65,-75],
-           "duration": 0.5,
-           "direction": 1,
-           "percentage": 35
-           },
-           {
-           "position": [-275, 50],
-           "duration": 0.7,
-           "direction": 1,
-           "percentage": 15
-           },
-           {
-           "position": [150, 50],
-           "duration": 0.6,
-           "direction": 1,
-           "percentage": 15
-           },
-           {
-           "position": [-65, -250],
-           "duration": 0.7,
-           "direction": 1,
-           "percentage": 100
-           }
-         ]         
-       },       
-
-       {
-         "id" : "0010",
-         "description": "",
-         "maxSeconds": 90,
-         "objective": {
-           "en": "Collect the money, score a goal!",
-           "lv": "Savāc naudu! Gūsti vārtus!",
-           "ru": "Собери рубли! Забей гол!"
-         },
-
-         "holes": [
-          { "position": [0,100] },
-          { "position": [-100,100] },
-          { "position": [100,100] },
-          
-          { "position": [-200,0] },
-          { "position": [200,0] },
-          
-          { 
-            "position": [0, 250],
-            "duration": 1,
-            "direction": 1,
-            "percentage": 30
-
-          },
-                    
-          { "position": [0,-300] },
-          { "position": [-100,-300] },
-          { "position": [100,-300] },
-          { "position": [200,-300] },
-          { "position": [-200,-300] },
-          
-          { "position": [300,-100] },
-          { "position": [-300,-100] }
-          
-         ],
-         "collectibles": [
-           {
-           "type": 1,
-           "position": [0,0]
-           },
-           {
-           "type": 1,
-           "position": [-60,-230]
-           }
-         ]
-		},
-       {
-         "id" : "0011",
-         "description": "3 moving holes in the middle",
-         "maxSeconds": 30,
-         "holes": [
-          { "position": [0,100],
-            "duration": 0.5,
-            "direction": 1,
-            "percentage": 20             
-          },
-          { "position": [-100,100],
-            "duration": 0.3,
-            "direction": 0,
-            "percentage": 25
-          },
-          { "position": [100,100],
-            "duration": 0.3,
-            "direction": 0,
-            "percentage": 25           
-          }
-         ]
-       },
-
-       {
-         "id" : "0012",
-         "description": "3 moving holes in the middle",
-         "maxSeconds": 30,
-         "holes": [
-          { "position": [0,100],
-            "duration": 0.5,
-            "direction": 1,
-            "percentage": 20             
-          },
-          { "position": [-100,100],
-            "duration": 0.3,
-            "direction": 0,
-            "percentage": 25
-          },
-          { "position": [100,100],
-            "duration": 0.3,
-            "direction": 0,
-            "percentage": 25           
-          },
-          
-          { "position": [250,-350] },
-          { "position": [150,-390] },
-          { "position": [-150,-390] },
-          { "position": [-250,-350] },    
-          { "position": [-300, 200] },    
-          { "position": [-200, 350] },    
-          { "position": [300, 200] },    
-          { "position": [200, 350] }    
-         ],
-         "collectibles" : [
-          {
-            "type" : 100,
-            "position" : [
-              54,
-              230
-            ]
-          },
-          {
-            "type" : 1,
-            "position" : [
-              80,
-              -244
-            ]
-          },
-          {
-            "type" : 25,
-            "position" : [
-              -16,
-              -254
-            ]
-          },
-          {
-            "type" : 100,
-            "position" : [
-              -116,
-              -244
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              70,
-              -162
-            ]
-          },
-          {
-            "type" : 1,
-            "position" : [
-              -76,
-              -174
-            ]
-          },
-          {
-            "type" : 50,
-            "position" : [
-              -6,
-              -104
-            ]
-          }
-        ],         
-       },
-       {
-        "id" : "0013",
-        "description": "Tunnel",
-        "maxSeconds": 120,
-        "holes": [
-         { "position": [80,-340] },
-         { "position": [220,-340] },
-         { "position": [80,-270] },
-         { "position": [220,-270] },
-         { "position": [80,-200] },
-         { "position": [220,-200] },
-         { "position": [80,-130] },
-         { "position": [220,-130] },
-         { "position": [80,-60] },
-         { "position": [220,-60] },
-         { "position": [80,10] },
-         { "position": [220,10] },
-         { "position": [80,80] },
-         { "position": [220,80] },
-         { "position": [220,150] },
-         { "position": [220,220] },
-         { "position": [220,290] },
-         
-         { "position": [150,220] },
-         { "position": [80,220] },
-         { "position": [10,220] },
-         { "position": [-60,220] },
-
-         { "position": [10,80] },
-         { "position": [-60,80] },
-         { "position": [-130,80] },
-
-        ],
-        "collectibles": [
-          { "type": 1, "position": [200,400] },
-          { "type": 1, "position": [-200,-200] },
-          { "type": 1, "position": [150,-320] },
-          { "type": 25, "position": [150,-250] },
-          { "type": 50, "position": [150,-180] },
-          { "type": 100, "position": [150,-110] },
-          { "type": 1, "position": [150,-40] },
-          { "type": 100, "position": [150,100] },
-       ]
+      "collectibles": [
+        {
+          "type": 100,
+          "position": [
+            -8,
+            -278
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -62,
+            -238
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            72,
+            -76
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -92,
+            -78
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -278,
+            -80
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            272,
+            -78
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            -14,
+            110
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            76,
+            242
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -78,
+            238
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            16,
+            -216
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            80,
+            -274
+          ]
+        }
+      ],
+      "maxSeconds": 80,
+      "description": "Roubles"
+    },
+    {
+      "holes": [
+        {
+          "position": [
+            -42,
+            -360
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            36,
+            -360
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            118,
+            -358
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -122,
+            -356
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -128,
+            -260
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -130,
+            -78
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -52,
+            -80
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            34,
+            -84
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            116,
+            -84
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            122,
+            -172
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            122,
+            -266
+          ],
+          "duration": 1
+        }
+      ],
+      "id": "9005",
+      "objective": {
+        "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en": "Try to score as fast as you can!",
+        "ru": "Забей гол как можно быстрее!"
       },
-
-     ]
-   }
+      "collectibles": [
+        {
+          "type": 100,
+          "position": [
+            50,
+            -142
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -46,
+            -144
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            64,
+            -284
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -66,
+            -294
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -8,
+            -278
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            60,
+            -216
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            -8,
+            -234
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -66,
+            -196
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -62,
+            -238
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            12,
+            -192
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            6,
+            394
+          ]
+        }
+      ],
+      "maxSeconds": 60,
+      "description": ""
+    },
+    {
+      "collectibles": [
+        {
+          "type": 1,
+          "position": [
+            214,
+            -154
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -224,
+            -162
+          ]
+        }
+      ],
+      "id": "9003",
+      "keepers": [
+        {
+          "position": [
+            -248,
+            -234
+          ],
+          "type": 1,
+          "duration": 1
+        },
+        {
+          "position": [
+            208,
+            -224
+          ],
+          "type": 2,
+          "duration": 1
+        }
+      ],
+      "maxSeconds": 30,
+      "objective": {
+        "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en": "Try to score as fast as you can!",
+        "ru": "Забей гол как можно быстрее!"
+      },
+      "description": "3 holes tree",
+      "holes": [
+        {
+          "position": [
+            -4,
+            224
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            50,
+            156
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -58,
+            150
+          ],
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "collectibles": [
+        {
+          "type": 1,
+          "position": [
+            260,
+            50
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -54,
+            234
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            48,
+            238
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            184,
+            360
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -240,
+            362
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -264,
+            -82
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -170,
+            100
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -228,
+            18
+          ]
+        }
+      ],
+      "id": "9002",
+      "keepers": [],
+      "maxSeconds": 60,
+      "objective": {
+        "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en": "Try to score as fast as you can!",
+        "ru": "Забей гол как можно быстрее!"
+      },
+      "description": "",
+      "holes": [
+        {
+          "position": [
+            -202,
+            -280
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            124,
+            194
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -126,
+            190
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -14,
+            70
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -16,
+            -198
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -16,
+            -292
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            74,
+            -38
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -100,
+            -38
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -206,
+            -194
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            170,
+            -184
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            174,
+            -280
+          ],
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "collectibles": [
+        {
+          "type": 1,
+          "position": [
+            204,
+            12
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            244,
+            302
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -230,
+            298
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -224,
+            -362
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            250,
+            -352
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            258,
+            -234
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            178,
+            -126
+          ]
+        }
+      ],
+      "id": "9001",
+      "keepers": [],
+      "maxSeconds": 60,
+      "objective": {
+        "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en": "Try to score as fast as you can!",
+        "ru": "Забей гол как можно быстрее!"
+      },
+      "description": "",
+      "holes": [
+        {
+          "position": [
+            -68,
+            -288
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -94,
+            -200
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -136,
+            -100
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -166,
+            -12
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -172,
+            96
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -144,
+            192
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            74,
+            -320
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            50,
+            -218
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            20,
+            -122
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -24,
+            -20
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -48,
+            82
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -8,
+            186
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            88,
+            202
+          ],
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "id": "0007",
+      "description": "9 static holes, keeper",
+      "maxSeconds": 60,
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ]
+        },
+        {
+          "position": [
+            -100,
+            100
+          ]
+        },
+        {
+          "position": [
+            100,
+            100
+          ]
+        },
+        {
+          "position": [
+            -200,
+            0
+          ]
+        },
+        {
+          "position": [
+            200,
+            0
+          ]
+        },
+        {
+          "position": [
+            0,
+            250
+          ],
+          "duration": 1,
+          "direction": 1,
+          "percentage": 30
+        },
+        {
+          "position": [
+            0,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            300,
+            -100
+          ]
+        },
+        {
+          "position": [
+            -300,
+            -100
+          ]
+        }
+      ],
+      "keepers": [
+        {
+          "position": [
+            -65,
+            -50
+          ],
+          "duration": 0.5,
+          "direction": 1,
+          "percentage": 30
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 100,
+          "position": [
+            -134,
+            -214
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            -10,
+            -208
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            134,
+            -202
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            68,
+            -122
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            -74,
+            -126
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -2,
+            -42
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            54,
+            230
+          ]
+        }
+      ],
+    },
+    {
+      "id": "0008",
+      "description": "3 keepers",
+      "maxSeconds": 90,
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ]
+        },
+        {
+          "position": [
+            -100,
+            100
+          ]
+        },
+        {
+          "position": [
+            100,
+            100
+          ]
+        },
+        {
+          "position": [
+            -200,
+            0
+          ]
+        },
+        {
+          "position": [
+            200,
+            0
+          ]
+        },
+        {
+          "position": [
+            0,
+            250
+          ],
+          "duration": 1,
+          "direction": 1,
+          "percentage": 30
+        },
+        {
+          "position": [
+            0,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            300,
+            -100
+          ]
+        },
+        {
+          "position": [
+            -300,
+            -100
+          ]
+        }
+      ],
+      "keepers": [
+        {
+          "position": [
+            -65,
+            -75
+          ],
+          "duration": 0.5,
+          "direction": 1,
+          "percentage": 35
+        },
+        {
+          "position": [
+            -275,
+            50
+          ],
+          "duration": 0.7,
+          "direction": 1,
+          "percentage": 15
+        },
+        {
+          "position": [
+            150,
+            50
+          ],
+          "duration": 0.6,
+          "direction": 1,
+          "percentage": 15
+        }
+      ]
+    },
+    {
+      "id": "0009",
+      "description": "",
+      "maxSeconds": 90,
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ]
+        },
+        {
+          "position": [
+            -100,
+            100
+          ]
+        },
+        {
+          "position": [
+            100,
+            100
+          ]
+        },
+        {
+          "position": [
+            -200,
+            0
+          ]
+        },
+        {
+          "position": [
+            200,
+            0
+          ]
+        },
+        {
+          "position": [
+            0,
+            250
+          ],
+          "duration": 1,
+          "direction": 1,
+          "percentage": 30
+        },
+        {
+          "position": [
+            0,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            300,
+            -100
+          ]
+        },
+        {
+          "position": [
+            -300,
+            -100
+          ]
+        }
+      ],
+      "keepers": [
+        {
+          "position": [
+            -65,
+            -75
+          ],
+          "duration": 0.5,
+          "direction": 1,
+          "percentage": 35
+        },
+        {
+          "position": [
+            -275,
+            50
+          ],
+          "duration": 0.7,
+          "direction": 1,
+          "percentage": 15
+        },
+        {
+          "position": [
+            150,
+            50
+          ],
+          "duration": 0.6,
+          "direction": 1,
+          "percentage": 15
+        },
+        {
+          "position": [
+            -65,
+            -250
+          ],
+          "duration": 0.7,
+          "direction": 1,
+          "percentage": 100
+        }
+      ]
+    },
+    {
+      "id": "0010",
+      "description": "",
+      "maxSeconds": 90,
+      "objective": {
+        "en": "Collect the money, score a goal!",
+        "lv": "Savāc naudu! Gūsti vārtus!",
+        "ru": "Собери рубли! Забей гол!"
+      },
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ]
+        },
+        {
+          "position": [
+            -100,
+            100
+          ]
+        },
+        {
+          "position": [
+            100,
+            100
+          ]
+        },
+        {
+          "position": [
+            -200,
+            0
+          ]
+        },
+        {
+          "position": [
+            200,
+            0
+          ]
+        },
+        {
+          "position": [
+            0,
+            250
+          ],
+          "duration": 1,
+          "direction": 1,
+          "percentage": 30
+        },
+        {
+          "position": [
+            0,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            100,
+            -300
+          ]
+        },
+        {
+          "position": [
+            200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            -200,
+            -300
+          ]
+        },
+        {
+          "position": [
+            300,
+            -100
+          ]
+        },
+        {
+          "position": [
+            -300,
+            -100
+          ]
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 1,
+          "position": [
+            0,
+            0
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            -60,
+            -230
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0011",
+      "description": "3 moving holes in the middle",
+      "maxSeconds": 30,
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ],
+          "duration": 0.5,
+          "direction": 1,
+          "percentage": 20
+        },
+        {
+          "position": [
+            -100,
+            100
+          ],
+          "duration": 0.3,
+          "direction": 0,
+          "percentage": 25
+        },
+        {
+          "position": [
+            100,
+            100
+          ],
+          "duration": 0.3,
+          "direction": 0,
+          "percentage": 25
+        }
+      ]
+    },
+    {
+      "id": "0012",
+      "description": "3 moving holes in the middle",
+      "maxSeconds": 30,
+      "holes": [
+        {
+          "position": [
+            0,
+            100
+          ],
+          "duration": 0.5,
+          "direction": 1,
+          "percentage": 20
+        },
+        {
+          "position": [
+            -100,
+            100
+          ],
+          "duration": 0.3,
+          "direction": 0,
+          "percentage": 25
+        },
+        {
+          "position": [
+            100,
+            100
+          ],
+          "duration": 0.3,
+          "direction": 0,
+          "percentage": 25
+        },
+        {
+          "position": [
+            250,
+            -350
+          ]
+        },
+        {
+          "position": [
+            150,
+            -390
+          ]
+        },
+        {
+          "position": [
+            -150,
+            -390
+          ]
+        },
+        {
+          "position": [
+            -250,
+            -350
+          ]
+        },
+        {
+          "position": [
+            -300,
+            200
+          ]
+        },
+        {
+          "position": [
+            -200,
+            350
+          ]
+        },
+        {
+          "position": [
+            300,
+            200
+          ]
+        },
+        {
+          "position": [
+            200,
+            350
+          ]
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 100,
+          "position": [
+            54,
+            230
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            80,
+            -244
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            -16,
+            -254
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            -116,
+            -244
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            70,
+            -162
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            -76,
+            -174
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            -6,
+            -104
+          ]
+        }
+      ],
+    },
+    {
+      "id": "0013",
+      "description": "Tunnel",
+      "maxSeconds": 120,
+      "holes": [
+        {
+          "position": [
+            80,
+            -340
+          ]
+        },
+        {
+          "position": [
+            220,
+            -340
+          ]
+        },
+        {
+          "position": [
+            80,
+            -270
+          ]
+        },
+        {
+          "position": [
+            220,
+            -270
+          ]
+        },
+        {
+          "position": [
+            80,
+            -200
+          ]
+        },
+        {
+          "position": [
+            220,
+            -200
+          ]
+        },
+        {
+          "position": [
+            80,
+            -130
+          ]
+        },
+        {
+          "position": [
+            220,
+            -130
+          ]
+        },
+        {
+          "position": [
+            80,
+            -60
+          ]
+        },
+        {
+          "position": [
+            220,
+            -60
+          ]
+        },
+        {
+          "position": [
+            80,
+            10
+          ]
+        },
+        {
+          "position": [
+            220,
+            10
+          ]
+        },
+        {
+          "position": [
+            80,
+            80
+          ]
+        },
+        {
+          "position": [
+            220,
+            80
+          ]
+        },
+        {
+          "position": [
+            220,
+            150
+          ]
+        },
+        {
+          "position": [
+            220,
+            220
+          ]
+        },
+        {
+          "position": [
+            220,
+            290
+          ]
+        },
+        {
+          "position": [
+            150,
+            220
+          ]
+        },
+        {
+          "position": [
+            80,
+            220
+          ]
+        },
+        {
+          "position": [
+            10,
+            220
+          ]
+        },
+        {
+          "position": [
+            -60,
+            220
+          ]
+        },
+        {
+          "position": [
+            10,
+            80
+          ]
+        },
+        {
+          "position": [
+            -60,
+            80
+          ]
+        },
+        {
+          "position": [
+            -130,
+            80
+          ]
+        },
+      ],
+      "collectibles": [
+        {
+          "type": 1,
+          "position": [
+            200,
+            400
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            -200,
+            -200
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            150,
+            -320
+          ]
+        },
+        {
+          "type": 25,
+          "position": [
+            150,
+            -250
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            150,
+            -180
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            150,
+            -110
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            150,
+            -40
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            150,
+            100
+          ]
+        },
+      ]
+    },
+    {
+      "id": "8001",
+      "failReset": false,
+      "maxSeconds": 60,
+      "objective": {
+        "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en": "Try to score as fast as you can!",
+        "ru": "Забей гол как можно быстрее!"
+      },
+      "description": "",
+      "holes": [
+        {
+          "position": [
+            110,
+            -400
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -78,
+            -400
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            166,
+            -320
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -18,
+            -314
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            42,
+            -240
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            218,
+            -234
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            270,
+            -146
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            274,
+            -46
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            212,
+            138
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            254,
+            52
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            156,
+            218
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            32,
+            130
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            74,
+            42
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            82,
+            -146
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            100,
+            -52
+          ],
+          "duration": 1
+        },
+        {
+          "position": [
+            -12,
+            220
+          ],
+          "duration": 1
+        }
+      ],
+      "collectibles": [
+        {
+          "type": 1,
+          "position": [
+            68,
+            -338
+          ]
+        },
+        {
+          "type": 1,
+          "position": [
+            164,
+            24
+          ]
+        },
+        {
+          "type": 100,
+          "position": [
+            190,
+            -56
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            136,
+            104
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            92,
+            176
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            168,
+            -148
+          ]
+        },
+        {
+          "type": 50,
+          "position": [
+            120,
+            -238
+          ]
+        }
+      ]
+    }
+	  
+  ]
+}
