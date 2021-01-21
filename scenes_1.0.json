@@ -427,7 +427,175 @@
             -380
           ]
         }
+      ]
+    },
+    {
+      "holes" : [
+        {
+          "position" : [
+            -112,
+            -88
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            118,
+            -220
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -220,
+            36
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -10,
+            170
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -80,
+            42
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            60,
+            42
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            208,
+            48
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -14,
+            -150
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -152,
+            40
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -172,
+            -30
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -44,
+            106
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            26,
+            108
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            136,
+            38
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            66,
+            -90
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            134,
+            -38
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            86,
+            -152
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            44,
+            -194
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -88,
+            -184
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -164,
+            -222
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -140,
+            -154
+          ],
+          "duration" : 1
+        }
       ],
+      "id" : "9008",
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "collectibles" : [
+        {
+          "type" : 1,
+          "position" : [
+            170,
+            188
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -162,
+            190
+          ]
+        }
+      ],
+      "maxSeconds" : 60,
+      "description" : "star"
     },
     {
       "holes": [
@@ -1195,18 +1363,6 @@
         },
         {
           "position": [
-            -200,
-            0
-          ]
-        },
-        {
-          "position": [
-            200,
-            0
-          ]
-        },
-        {
-          "position": [
             0,
             250
           ],
@@ -1328,36 +1484,6 @@
         {
           "position": [
             0,
-            100
-          ]
-        },
-        {
-          "position": [
-            -100,
-            100
-          ]
-        },
-        {
-          "position": [
-            100,
-            100
-          ]
-        },
-        {
-          "position": [
-            -200,
-            0
-          ]
-        },
-        {
-          "position": [
-            200,
-            0
-          ]
-        },
-        {
-          "position": [
-            0,
             250
           ],
           "duration": 1,
@@ -1392,18 +1518,6 @@
           "position": [
             -200,
             -300
-          ]
-        },
-        {
-          "position": [
-            300,
-            -100
-          ]
-        },
-        {
-          "position": [
-            -300,
-            -100
           ]
         }
       ],
@@ -1444,24 +1558,6 @@
       "holes": [
         {
           "position": [
-            0,
-            100
-          ]
-        },
-        {
-          "position": [
-            -100,
-            100
-          ]
-        },
-        {
-          "position": [
-            100,
-            100
-          ]
-        },
-        {
-          "position": [
             -200,
             0
           ]
@@ -1484,18 +1580,6 @@
         {
           "position": [
             0,
-            -300
-          ]
-        },
-        {
-          "position": [
-            -100,
-            -300
-          ]
-        },
-        {
-          "position": [
-            100,
             -300
           ]
         },
@@ -2152,20 +2236,6 @@
         },
         {
           "position": [
-            -70,
-            -388
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            124,
-            -402
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
             174,
             -322
           ],
@@ -2274,20 +2344,6 @@
           "position": [
             -8,
             120
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            -100,
-            -398
-          ],
-          "duration": 1
-        },
-        {
-          "position": [
-            90,
-            -396
           ],
           "duration": 1
         },
