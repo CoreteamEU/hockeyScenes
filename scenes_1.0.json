@@ -2924,6 +2924,91 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8008",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "One rub behind wall of holes",
+      "holes" : [
+        {
+          "position" : [
+            -110,
+            -6
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            34,
+            -6
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            102,
+            -6
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            4,
+            116
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -162,
+            -64
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            148,
+            -66
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            236,
+            238
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -240,
+            228
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -40,
+            -6
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 100,
+          "position" : [
+            0,
+            54
+          ]
+        }
+      ]
     }
     
   ]
