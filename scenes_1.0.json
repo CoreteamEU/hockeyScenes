@@ -2611,6 +2611,98 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8005",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "Line of holes on the left holding collectables",
+      "holes" : [
+        {
+          "position" : [
+            12,
+            232
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -48,
+            176
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -106,
+            126
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -166,
+            76
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -224,
+            28
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -278,
+            -28
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 100,
+          "position" : [
+            -72,
+            244
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            -150,
+            180
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -272,
+            84
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -246,
+            148
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -212,
+            224
+          ]
+        }
+      ]
     }
     
   ]
