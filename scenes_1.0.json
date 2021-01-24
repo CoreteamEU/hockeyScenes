@@ -3009,6 +3009,119 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8009",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "One rub behind wall of holes",
+      "holes" : [
+        {
+          "position" : [
+            130,
+            228
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            130,
+            154
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            130,
+            74
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -128,
+            224
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -128,
+            148
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -128,
+            66
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -44,
+            104
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            50,
+            196
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -126,
+            -14
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            134,
+            -8
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            54,
+            24
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 1,
+          "position" : [
+            -38,
+            32
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            46,
+            110
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            -44,
+            200
+          ]
+        }
+      ]
     }
     
   ]
