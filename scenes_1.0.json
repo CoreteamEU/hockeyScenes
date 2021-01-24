@@ -2462,6 +2462,49 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8003",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "3 holes in a triangle",
+      "holes" : [
+        {
+          "position" : [
+            -4,
+            -6
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -102,
+            178
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            88,
+            180
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 100,
+          "position" : [
+            -10,
+            174
+          ]
+        }
+      ]
     }
     
   ]
