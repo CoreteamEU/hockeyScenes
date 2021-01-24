@@ -1474,7 +1474,7 @@
             230
           ]
         }
-      ],
+      ]
     },
     {
       "id": "0008",
@@ -1921,7 +1921,7 @@
             -104
           ]
         }
-      ],
+      ]
     },
     {
       "id": "0013",
@@ -2071,7 +2071,7 @@
             -130,
             80
           ]
-        },
+        }
       ],
       "collectibles": [
         {
@@ -2129,7 +2129,7 @@
             150,
             100
           ]
-        },
+        }
       ]
     },
     {
@@ -2704,7 +2704,6 @@
         }
       ]
     },
-
     {
       "id" : "8006",
       "failReset" : false,
@@ -3255,7 +3254,107 @@
             202
           ]
         }
+      ]
+    },
+    {
+      "id" : "8011",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "Rub behind the holes",
+      "holes" : [
+        {
+          "position" : [
+            260,
+            -184
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            166,
+            -392
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -256,
+            -286
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -260,
+            120
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            220,
+            246
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -4,
+            0
+          ],
+          "duration" : 1
+        }
       ],
+
+      "collectibles" : [
+        {
+          "type" : 1,
+          "position" : [
+            264,
+            -144
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            178,
+            -342
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -256,
+            -240
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -258,
+            164
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            228,
+            288
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -8,
+            40
+          ]
+        }
+      ]
     }
     
   ]
