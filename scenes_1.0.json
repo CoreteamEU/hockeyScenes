@@ -3122,6 +3122,140 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8010",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "Behind and from the right",
+      "holes" : [
+        {
+          "position" : [
+            -128,
+            224
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -128,
+            148
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            22,
+            146
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -52,
+            146
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            96,
+            146
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            170,
+            146
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -268,
+            176
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -184,
+            308
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            284,
+            214
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            164,
+            310
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            244,
+            148
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 1,
+          "position" : [
+            -128,
+            378
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -14,
+            386
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            96,
+            380
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            -242,
+            242
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            212,
+            250
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -72,
+            202
+          ]
+        }
+      ],
     }
     
   ]
