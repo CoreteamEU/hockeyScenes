@@ -2505,6 +2505,112 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8004",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "Line of holes on the right holding collectables",
+      "holes" : [
+        {
+          "position" : [
+            274,
+            -68
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            214,
+            -12
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            160,
+            42
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            104,
+            102
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            54,
+            158
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            12,
+            232
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 100,
+          "position" : [
+            268,
+            42
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            268,
+            120
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            84,
+            246
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            180,
+            106
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            126,
+            174
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            224,
+            178
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            182,
+            234
+          ]
+        }
+      ]
     }
     
   ]
