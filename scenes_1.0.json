@@ -2803,6 +2803,127 @@
           ]
         }
       ]
+    },
+
+    {
+      "id" : "8007",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "Arrow left and right",
+      "holes" : [
+        {
+          "position" : [
+            -52,
+            -238
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -112,
+            -6
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -162,
+            -62
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -220,
+            -114
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -166,
+            52
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -222,
+            104
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            142,
+            54
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            100,
+            -8
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            196,
+            110
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            210,
+            -108
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            152,
+            -60
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -44,
+            176
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            22,
+            178
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 25,
+          "position" : [
+            -186,
+            -12
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            164,
+            0
+          ]
+        }
+      ]
     }
     
   ]
