@@ -3807,6 +3807,119 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8015",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "2 cheeks at the gates",
+      "holes" : [
+        {
+          "position" : [
+            -124,
+            222
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -74,
+            164
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            112,
+            222
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            62,
+            168
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            94,
+            104
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            164,
+            68
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -88,
+            94
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -152,
+            54
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -212,
+            92
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            210,
+            114
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            4,
+            -64
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 50,
+          "position" : [
+            -150,
+            152
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            146,
+            164
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -6,
+            380
+          ]
+        }
+      ]
     }
     
   ]
