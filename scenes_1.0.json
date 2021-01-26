@@ -3920,6 +3920,106 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8016",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "2 squares left & right",
+      "holes" : [
+        {
+          "position" : [
+            290,
+            -164
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            156,
+            -168
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            282,
+            -36
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -280,
+            -174
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -282,
+            -46
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -160,
+            -172
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -160,
+            -44
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            120,
+            228
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -136,
+            220
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            158,
+            -42
+          ],
+          "duration" : 1
+        }
+      ],
+
+      "collectibles" : [
+        {
+          "type" : 25,
+          "position" : [
+            216,
+            -98
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            -222,
+            -114
+          ]
+        }
+      ]
     }
     
   ]
