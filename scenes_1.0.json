@@ -3476,6 +3476,175 @@
           ]
         }
       ]
+    },
+    {
+      "id" : "8013",
+      "failReset" : false,
+      "maxSeconds" : 60,
+      "objective" : {
+        "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
+        "en" : "Try to score as fast as you can!",
+        "ru" : "Забей гол как можно быстрее!"
+      },
+      "description" : "2 X on left and right",
+      "holes" : [
+        {
+          "position" : [
+            -276,
+            -244
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -232,
+            -186
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -182,
+            -136
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -126,
+            -186
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -84,
+            -248
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -270,
+            -24
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -86,
+            -28
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            78,
+            -240
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            166,
+            -128
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            228,
+            -168
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            272,
+            -228
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            108,
+            -172
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -244,
+            -94
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            112,
+            -80
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            228,
+            -86
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            76,
+            -18
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            -114,
+            -96
+          ],
+          "duration" : 1
+        },
+        {
+          "position" : [
+            266,
+            -20
+          ],
+          "duration" : 1
+        }
+      ],
+      "collectibles" : [
+        {
+          "type" : 1,
+          "position" : [
+            -180,
+            -216
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            166,
+            -206
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            -178,
+            -58
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            176,
+            -54
+          ]
+        }
+      ]
     }
     
   ]
