@@ -430,6 +430,305 @@
       ]
     },
     {
+      "id" : "9009",
+      "objective" : {
+        "lv" : "Savāc visus rubļus!",
+        "en" : "Collect all roubles!",
+        "ru" : "Собери рубли, побольше!"
+      },
+      "collectibles" : [
+        {
+          "type" : 1,
+          "position" : [
+            -220,
+            356
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -102,
+            396
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            18,
+            388
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            128,
+            386
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            236,
+            354
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            -248,
+            280
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            222,
+            -366
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -210,
+            -368
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -74,
+            -360
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            64,
+            -330
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            208,
+            -254
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            280,
+            -130
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            148,
+            -124
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            88,
+            -210
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            2,
+            -398
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -280,
+            -218
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -180,
+            -226
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -244,
+            -294
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            192,
+            288
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            264,
+            220
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -238,
+            174
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            28,
+            -98
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -44,
+            -214
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -194,
+            -104
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            -274,
+            -54
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            268,
+            -40
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            180,
+            -22
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            52,
+            12
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -78,
+            -20
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -70,
+            -114
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -194,
+            44
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -12,
+            124
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            250,
+            74
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            144,
+            92
+          ]
+        },
+        {
+          "type" : 50,
+          "position" : [
+            174,
+            188
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -146,
+            118
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            -278,
+            82
+          ]
+        },
+        {
+          "type" : 25,
+          "position" : [
+            80,
+            188
+          ]
+        },
+        {
+          "type" : 1,
+          "position" : [
+            -72,
+            202
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            6,
+            240
+          ]
+        },
+        {
+          "type" : 100,
+          "position" : [
+            122,
+            -274
+          ]
+        }
+      ],
+      "maxSeconds" : 120,
+      "description" : "Lots of roubles"
+    },     
+    {
       "holes" : [
         {
           "position" : [
