@@ -175,7 +175,7 @@
     {
       "id": "0004",
       "description": "9 static holes, 3 in gates",
-      "maxSeconds": 61200,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
