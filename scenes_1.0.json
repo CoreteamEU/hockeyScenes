@@ -4,7 +4,7 @@
     {
       "id": "0000",
       "description": "1 static hole in the middle",
-      "maxSeconds": 30,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -17,7 +17,7 @@
     {
       "id": "0001",
       "description": "3 static holes in the middle",
-      "maxSeconds": 30,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -42,7 +42,7 @@
     {
       "id": "00010",
       "description": "1 static hole with rouble",
-      "maxSeconds": 30,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -71,7 +71,7 @@
     {
       "id": "0002",
       "description": "5 static holes in the middle",
-      "maxSeconds": 30,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -124,7 +124,7 @@
     {
       "id": "0003",
       "description": "7 static, keeper in gates",
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -175,7 +175,7 @@
     {
       "id": "0004",
       "description": "9 static holes, 3 in gates",
-      "maxSeconds": 60,
+      "maxSeconds": 61200,
       "holes": [
         {
           "position": [
@@ -241,7 +241,7 @@
     {
       "id": "0005",
       "description": "9 static holes, blue line",
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -344,7 +344,7 @@
     {
       "id": "0006",
       "description": "9 static holes, moving middle",
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -893,7 +893,7 @@
           ]
         }
       ],
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "description" : "star"
     },
     {
@@ -1096,7 +1096,7 @@
           ]
         }
       ],
-      "maxSeconds": 80,
+      "maxSeconds": 120,
       "description": "Roubles"
     },
     {
@@ -1264,7 +1264,7 @@
           ]
         }
       ],
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "description": ""
     },
     {
@@ -1303,7 +1303,7 @@
           "duration": 1
         }
       ],
-      "maxSeconds": 30,
+      "maxSeconds": 120,
       "objective": {
         "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en": "Try to score as fast as you can!",
@@ -1395,7 +1395,7 @@
       ],
       "id": "9002",
       "keepers": [],
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "objective": {
         "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en": "Try to score as fast as you can!",
@@ -1536,7 +1536,7 @@
       ],
       "id": "9001",
       "keepers": [],
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "objective": {
         "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en": "Try to score as fast as you can!",
@@ -1640,7 +1640,7 @@
     {
       "id": "0007",
       "description": "9 static holes, keeper",
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -1778,7 +1778,7 @@
     {
       "id": "0008",
       "description": "3 keepers",
-      "maxSeconds": 90,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -1853,7 +1853,7 @@
     {
       "id": "0009",
       "description": "",
-      "maxSeconds": 90,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -1949,7 +1949,7 @@
     {
       "id": "0010",
       "description": "",
-      "maxSeconds": 90,
+      "maxSeconds": 120,
       "objective": {
         "en": "Collect the money, score a goal!",
         "lv": "Savāc naudu! Gūsti vārtus!",
@@ -2058,7 +2058,7 @@
     {
       "id": "0011",
       "description": "3 moving holes in the middle",
-      "maxSeconds": 30,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -2092,7 +2092,7 @@
     {
       "id": "0012",
       "description": "3 moving holes in the middle",
-      "maxSeconds": 30,
+      "maxSeconds": 120,
       "holes": [
         {
           "position": [
@@ -2757,7 +2757,7 @@
     {
       "id": "8001",
       "failReset": false,
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "objective": {
         "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en": "Try to score as fast as you can!",
@@ -2919,7 +2919,7 @@
     {
       "id": "8002",
       "failReset": false,
-      "maxSeconds": 60,
+      "maxSeconds": 120,
       "objective": {
         "lv": "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en": "Try to score as fast as you can!",
@@ -3088,7 +3088,7 @@
     {
       "id" : "8003",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3131,7 +3131,7 @@
     {
       "id" : "8004",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3237,7 +3237,7 @@
     {
       "id" : "8005",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3329,7 +3329,7 @@
     {
       "id" : "8006",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3429,7 +3429,7 @@
     {
       "id" : "8007",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3549,7 +3549,7 @@
     {
       "id" : "8008",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3634,7 +3634,7 @@
     {
       "id" : "8009",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3747,7 +3747,7 @@
     {
       "id" : "8010",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3881,7 +3881,7 @@
     {
       "id" : "8011",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -3981,7 +3981,7 @@
     {
       "id" : "8012",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -4108,7 +4108,7 @@
     {
       "id" : "8013",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -4277,7 +4277,7 @@
     {
       "id" : "8014",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -4439,7 +4439,7 @@
     {
       "id" : "8015",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -4552,7 +4552,7 @@
     {
       "id" : "8016",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -4652,7 +4652,7 @@
     {
       "id" : "8017",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -4814,7 +4814,7 @@
     {
       "id" : "8018",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -4963,7 +4963,7 @@
     {
       "id" : "8019",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
@@ -5097,7 +5097,7 @@
     {
       "id" : "8020",
       "failReset" : false,
-      "maxSeconds" : 60,
+      "maxSeconds" : 120,
       "objective" : {
         "lv" : "Mēģini gūt vārtus cik ātri vien iespējams!",
         "en" : "Try to score as fast as you can!",
